@@ -38,8 +38,6 @@ header {
 }
 
 main {
-    background-color: black;
-    color: #fff;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -51,4 +49,64 @@ main > div {
 
 h1 {
     font-size: 2em;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.Tagline {
+    font-size: 1.4rem;
+}
+
+.first-part {
+    background-color: black;
+    color: #fff;
+}
+
+button {
+    background-color: #f54900;
+    color: #fff;
+    border-radius: 20px;
+    height: 70px;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 1.2em;
+}
+
+.second-part {
+    background-color: #f0fbf8;
+    padding: 75px;
+}
+
+.contains_boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.boxes {
+    border-radius: 25px;
+}
+
+.box-top {
+    height: 50px;
+    background-color: #2b7fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.box-bottom {
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    padding: 0px 20px 20px 20px;
+    border-radius: 0px 0px 25px 25px;
+    gap: 10px;
 }
