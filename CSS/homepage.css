@@ -75,6 +75,7 @@ button {
 
 h2 {
     margin-bottom: 1.2em;
+    font-size: 1.75rem;
 }
 
 .second-part {
@@ -91,22 +92,43 @@ h2 {
 
 .boxes {
     border-radius: 25px;
+    
 }
 
 .box-top {
-    height: 50px;
-    background-color: #2b7fff;
+    height: 75px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 25px 25px 0px 0px;
 }
 
 .box-bottom {
-    width: 300px;
+    width: 250px;
     height: 100px;
     background: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
     padding: 0px 20px 20px 20px;
     border-radius: 0px 0px 25px 25px;
     gap: 10px;
+}
+
+.blue {
+    background-color: #2b7fff;
+}
+
+.green {
+    background-color: #00c950;
+}
+
+.orange {
+    background-color: #ff6900;
+}
+
+.boxes:hover {
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.75);
+}
+
+.boxes:hover h3 {
+    color: #008236;
 }
