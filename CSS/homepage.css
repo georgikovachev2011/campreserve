@@ -89,6 +89,7 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+    text-wrap: balance;
 }
 
 h1 {
@@ -113,6 +114,7 @@ p {
 .center {
     padding-left: 56rem;
     padding-right: 56rem;
+    max-width: 56rem;
 }
 
 .orange-button {
@@ -162,6 +164,13 @@ h2 {
 
 .boxes {
     border-radius: 25px;
+}
+
+.box-link {
+    text-decoration: none; 
+    color: inherit;       
+    flex-shrink: 0;        
+    display: block;        
 }
 
 .box-top {
